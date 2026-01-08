@@ -92,7 +92,7 @@ if (playerMove === 'scissors') {
     result = 'Tie.'
   } else if (computerMove === 'paper') {
     result = 'You lose.'
-  } else if (computerMove === 'pcissors') {
+  } else if (computerMove === 'scissors') {
     result = 'You win!'
   }
 }
@@ -139,3 +139,4 @@ function autoPlay() {
   }
 
 }
+
